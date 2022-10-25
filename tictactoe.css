@@ -1,0 +1,48 @@
+body{
+    background-color: violet;
+    font-family: sans-serif;
+}
+
+.box{
+    color:violet; 
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin: 15px;
+}
+
+@media (min-width: 600px){
+    div.box{
+        display: inline-block;
+        box-sizing: border-box;
+        width: calc(50% - 30px);
+    }
+}
+
+@media (min-width: 800px){
+    body {
+        background-color: cadetblue;
+    }
+}
+
+.game-table span{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+.game-table div {
+    display:inline-block;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    body  {
+        background-color: red;
+    }
+
+}
+
+
+
